@@ -1157,7 +1157,7 @@ init:
     "helm.sh/hook-delete-policy": "before-hook-creation"
   # -- Custom pod spec to be added to init job
   additionalPodSpec: {}
-  loadExamples: false
+  loadExamples: true
   createAdmin: true
   adminUser:
     username: admin
